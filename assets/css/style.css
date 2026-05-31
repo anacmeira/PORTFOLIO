@@ -63,6 +63,7 @@ section h2 {
     section {
         max-width: 1180px;
         margin: 0 auto;
+        align-items: center;
     }
     
 }
@@ -223,6 +224,7 @@ header nav a {
     .desktop-sobre {
         display: flex;
         gap: 92px;
+        align-items: center;
 
     }
 
@@ -230,14 +232,15 @@ header nav a {
         margin: 0;
     }
 
-    .sobre-liks {
+.sobre-liks {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 0.5rem; 
+        flex-wrap: nowrap; 
+        justify-content: flex-start; 
+        gap: 1rem
 
     }
+    
 }
 
 /*Projetos */
